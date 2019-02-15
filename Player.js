@@ -38,7 +38,7 @@ export default class Player extends Component {
             let id = item.idPlayer
             let nama = item.strPlayer
             let photo = item.strThumb
-            let photo2 = 'https://www.serumpi.com/wp-content/uploads/2017/03/138258-ronaldowati.jpg'
+            let photo2 = 'https://www.playerup.com/images/account/404.png'
             if (photo2 == false) {
                 photo = photo2
             }
