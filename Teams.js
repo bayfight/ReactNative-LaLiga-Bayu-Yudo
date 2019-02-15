@@ -15,10 +15,7 @@ export default class App extends Component {
         title: 'La liga'
     }
     componentDidMount() {
-        this.setState({
-            isLoading: 'https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif'
-        });
-
+     
         axios.get('https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?s=Soccer&c=Spain').then((x) => {
             this.setState({
                 klub: x.data.teams,
