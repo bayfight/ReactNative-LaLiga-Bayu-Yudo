@@ -26,24 +26,7 @@ export default class App extends Component {
             });
         });
     }
-    // getapi = () => {
-    //     var url = `https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?t=${this.state.nama}`
-    //     axios.get(url)
-    //         .then((res) => {
-    //             console.log(res)
-    //             if (res) {
-    //                 this.setState({
-    //                     players: res.data.player
-    //                 })
-    //             } else {
-    //                 Alert.alert('Data Not Found Bro ')
-    //             }
-    //         })
-    //         .catch((err) => {
-    //             Alert.alert('eror')
-    //             console.log(err)
-    //         })
-    // }
+    
 
     render() {
         var dataKlub = this.state.klub.map((item, index) => {
